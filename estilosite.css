@@ -31,3 +31,38 @@ a:hover{
     color: white;
     background-color:black;
 }
+.lugar img{
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+.clear{
+    clear: both;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+.notas{
+    background-origin: rgba(210,210,210,0.3);
+    padding: 10px;
+    float: right;
+    background: #CC7766 url("noise.png"); 
+    border-style: outset;
+    border-width: 5px;
+    margin-bottom: 20px;
+    width: 260px;
+}
+.notas h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+.notas ol{
+    font-size: 12px;
+}
+.lado{
+    float:left;
+    width: 660px;
+}
