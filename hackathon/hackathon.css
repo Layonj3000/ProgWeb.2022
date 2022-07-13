@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    background-color: aquamarine;
+    align-items: stretch;
+    
+}
+
+.header > div{
+    margin: 15px;
+}
+
+.header > div:hover{
+    background-color: aqua;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.div1{
+    flex-grow: 7
+    
+}
