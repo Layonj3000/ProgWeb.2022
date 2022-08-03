@@ -6,19 +6,52 @@
  </head>
  <body>
     <form>
-        <label for="fname">Nome:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <P>Idade:</P>
-        <input type="radio" id="html" name="idade" value="crianca">
-        <label for="CRIANCA">Menor que 18  </label><br>
-        <input type="radio" id="html" name="idade" value="jovem">
-        <label for="JOVEM">Menor que 18  </label><br>
-        <input type="radio" id="css" name="idade" value="adulto">
-        <label for="ADULTO">36-48</label><br>
-        <input type="radio" id="javascript" name="idade" value="velho">
-        <label for="VELHO">Mais que 49</label><br><br>
-        <label for="fpro">Profissão:</label><br>
-        <input type="text" id="fpro" name="fpro"><br>
+        <p>
+        <label for="fname">Nome:</label>
+        <input type="text" id="fname" name="fname">
+        </p>
+        <p>
+        <label>Idade</label>
+        <input type="radio" id="CRIANCA" name="idade" value="crianca">
+        <label for="CRIANCA">Menor que 18  </label>
+        <input type="radio" id="JOVEM" name="idade" value="jovem">
+        <label for="JOVEM">Menor que 18  </label>
+        <input type="radio" id="ADULTO" name="idade" value="adulto">
+        <label for="ADULTO">36-48</label>
+        <input type="radio" id="VELHO" name="idade" value="velho">
+        <label for="VELHO">Mais que 49</label>
+        </p>
+        <p>
+        <label for="fpro">Profissão:</label>
+        <input type="text" id="fpro" name="fpro">
+        </p>
+        <p>
+        <label>País</label>
+        <select id="myList">
+            <option value="1">Brasil</option>
+            <option value="2">Estados Unidos</option>
+            <option value="3">Reino Unido</option>
+            <option value="4">Outro</option>
+        </select>
+        </p>
+        <p>
+        <label>Interesses:</label>
+        <input type="checkbox" id="FUT" value="fut" />
+        <label for="FUT">Futebol</label>
+        <input type="checkbox" id="BQT" value="bqt" />
+        <label for="BQT">Basquete</label>
+        <input type="checkbox" id="VOL" value="vol" />
+        <label for="VOL">Vôlei</label>
+        <input type="checkbox" id="OUT" value="out" />
+        <label for="OUT">Outros:</label>
+        <textarea rows="2" cols="20" name="mensagem"></textarea>
+        </p>
+        <p>
+        <label>Como você descobriu o site?</label>
+        <textarea rows="2" cols="20" name="mensagem"></textarea>
+        </p>
+        <input type="submit" value="Enviar"/>
+        <input type="reset" value="Limpar"/>
     </form>
  </body>
 </html>
