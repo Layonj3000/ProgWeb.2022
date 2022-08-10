@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  body > header{
+    background-color:#046DD5;
+    padding-left: 15px;
+  }
+  body > header a{
+    text-decoration: none;
+    color: white;
+  }
+  body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body>header h1{
+    font-size: 1.7rem;
+    margin: 0;
+    padding-top: 20px;
+  }
+  body>header h2{
+    font-size: 0.8rem;
+  }
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body > header #signup{
+    font-size: 0.8rem;
+    padding-bottom: 15px;
+  }
+  body> header #signup a:nth-child(1){
+    border-right: 1px white solid;
+    padding-right: 10px;
+  }
+  body> header #signup a:nth-child(2){
+    padding-left: 8px;
+  }
+  #hamburger{
+    display: none;
+  }
+  #related{
+    background-color: #2A2F33;
+    color:white;
+  }
+  #related a{
+    color: white;
+    text-decoration: none;
+  }
+  #menu > ul > li a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  #menu > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  #menu > ul > li{
+    text-align: center;
+    padding: 20px;
+  }
+  #menu > ul > li:nth-child(1){
+    border-top: #E1493E solid 5px;
+  }
+  #menu > ul > li:nth-child(2){
+    border-top: #8ABA56 solid 5px;
+  }
+  #menu > ul > li:nth-child(3){
+    border-top: #5B4282 solid 5px;
+  }
+  #menu > ul > li:nth-child(4){
+    border-top: #FF8932 solid 5px;
+  }
+  #menu > ul > li:nth-child(5){
+    border-top: #19B6E9 solid 5px;
+  }
+  #menu > ul > li:nth-child(6){
+    border-top: #E84C8B solid 5px;
+  }
+  #news > article> header{
+    position: absolute;
+    width: 200px;
+    margin: 25px 30px;
+  }
+  #news > article img{
+    width: 960px;
+  }
+  #news > article a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 4px 4px 3px black;
+  }
+
