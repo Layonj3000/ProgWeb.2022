@@ -47,6 +47,7 @@ footer{
 }
 .notas{
     background-origin: rgba(210,210,210,0.3);
+    border-color: #CCC #999 #999 #CCC;
     padding: 10px;
     float: right;
     background: #CC7766 url("noise.png"); 
@@ -65,4 +66,17 @@ footer{
 .lado{
     float:left;
     width: 660px;
+}
+table{
+    background: #CC7766 url("noise.png"); 
+    border-color: #CCC #999 #999 #CCC;
+    padding: 10px;
+    float: right;
+    border-style: outset;
+    border-width: 5px;
+    margin-bottom: 20px;
+    width: 260px;
+}
+td, th {
+    border: 1px solid black;
 }
