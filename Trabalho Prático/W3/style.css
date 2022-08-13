@@ -1,0 +1,100 @@
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+
+footer {
+    background: linear-gradient(90deg, #9e0004 50%, #70160e 100%);
+}
+header{
+    background: linear-gradient(90deg, #9e0004 50%, #70160e 100%);
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 5px;
+}
+iframe{
+    width: 500px;
+    height: 500px;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+}
+
+textarea {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50%;
+}
+
+label {
+    color: white;
+}
+
+
+.w3-bar {
+    background: linear-gradient(90deg, #9e0004 50%, #70160e 100%);
+    color: white;
+}
+
+.showcase {
+    background-image: url(img/cenario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.local_title {
+    color: white;
+    font-weight: bold;
+    font-family: "Lobster", Sans-serif;
+}
+
+.hamburger {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.conteudo {
+    padding: 20px;
+    color: white;
+}
+
+.local_color_2 {
+    height: 100%;
+    background-color:  #161917;
+    padding: 10px;
+}
+
+.local_color_1 {
+    height: 100%;
+    background-color: rgb(58, 57, 57);
+    padding: 10px;
+}
+
+.in_local {
+    display: inline-block;
+    width: 50%;
+}
+
+
+.enviar_button {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    color: #70160e;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
