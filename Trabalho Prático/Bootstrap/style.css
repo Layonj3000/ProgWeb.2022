@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:ital,wght@1,100&display=swap');
+
+.container my-4 p-4 border rounded {
+    background-color: #70160e;
+    margin-top: 200px;;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background: #161917 url(noise.png);
+    color: #e1e3db;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+}
+.lugar{
+    border-color: #CCC, #999, #999, #ccc;
+    border-style: solid ;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #70160e url(noise.png);
+}
+
+ul {
+list-style-type:none ;
+}
+.lugar h2{
+    border-bottom: 1px dashed;
+    margin: 0;
+}
+
+.lugar a {
+  background-color: #161917; 
+  border: none;
+  color: white;
+  padding: 4px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+
+.lugar a:hover{
+    background-color:#e2e7e9;
+    color:#b9030f ;
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    clear: both;
+}
+
+.notas {
+    background-color:#70160e ;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding: 10px;
+    border-style: outset ;
+    border-width: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.notas h3 {
+    font-size: 14px;
+    margin-top: 0;
+}  
+
+.notas ol{
+    font-size: 12px;
+}
+
+.todoslugares{
+    float: left;
+    width: 660px;
+}
+
+.tabela{
+    width: 660px;
+    background-color:#70160e ;
+    padding: 10px;
+    border-style: solid ;
+    border-width: 2px; 
+    border-radius: 10px;
+}
+
+
+iframe {
+    width: 500px;
+    height: 500px;
+
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
