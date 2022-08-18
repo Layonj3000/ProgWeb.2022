@@ -1,0 +1,45 @@
+form {
+    background-color: #EDEFF0;
+
+    display: grid;
+    gap: 1em;
+
+    padding: 1em; 
+}
+
+form h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+form label {
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+form label input {
+    height: 2rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+form label input:focus {
+    outline: none;
+}
+
+form label textarea {
+    height: 4rem;
+}
+
+form button {
+    background: #000;
+    color: #FFF;
+    border: none;
+
+    padding: .5em 1em;
+    width: fit-content;
+
+    justify-self: flex-end;
+}

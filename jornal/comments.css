@@ -1,0 +1,38 @@
+#comments {
+    padding: 1em;
+}
+
+#comments > h1 {
+    font-weight: bold;
+    font-family: 'Poppinns', sans-serif;
+    margin-bottom: 1em;
+}
+
+.comment {
+    margin-bottom: 1em;
+}
+
+.comment .user {
+    font-style: italic;
+}
+
+.comment .user::after {
+    content: ' said:';
+}
+
+.comment .date {
+    float: right;
+}
+
+.comment p::before {
+    content: '\201C';
+    font-size: 2.4rem;
+    line-height: 1.5%;
+    color: #CCCCCC;
+}
+
+.comment span + span + p{
+    background-color: #EDEFF0;
+    font-size: 1.2rem !important;
+    padding: 1.5em !important ;
+}

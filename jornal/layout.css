@@ -1,8 +1,52 @@
-body{
-    margin: 0 auto;
-    width: 960px;
+body {
+	background-color: #EDEFF0;
+	
+	width: 60em;
+	margin: 0 auto;
+	
+	display: grid;
+	grid-template-areas: 
+	'header header header header header'
+	'menu menu menu menu related'
+	'news news news news related'
+	'footer footer footer footer related';
 }
-#related{
-    margin-bottom: 20px;
-    padding: 10px;
+
+body > header {
+	grid-area: header;
+
+	position: relative;
 }
+
+#signup {
+	position: absolute;
+	right: 1em;
+	bottom: 1em;
+}
+
+#menu {
+	grid-area: menu;
+}
+
+#related {
+	grid-area: related;
+	width: 12em;
+}
+
+#news {
+	grid-area: news;
+	margin-right: 1em;
+}
+
+body > footer {
+	grid-area: footer;
+	margin-right: 1em;
+}
+
+#menu ul {
+	display: flex;
+}
+
+#menu ul li {
+	flex: 1;
+} 

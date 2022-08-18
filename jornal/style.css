@@ -1,93 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap');
+
 * {
-    box-sizing: border-box;
-  }
-  body > header{
-    background-color:#046DD5;
-    padding-left: 15px;
-  }
-  body > header a{
-    text-decoration: none;
-    color: white;
-  }
-  body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  body>header h1{
-    font-size: 1.7rem;
     margin: 0;
-    padding-top: 20px;
-  }
-  body>header h2{
-    font-size: 0.8rem;
-  }
-  p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  body > header #signup{
-    font-size: 0.8rem;
-    padding-bottom: 15px;
-  }
-  body> header #signup a:nth-child(1){
-    border-right: 1px white solid;
-    padding-right: 10px;
-  }
-  body> header #signup a:nth-child(2){
-    padding-left: 8px;
-  }
-  #hamburger{
-    display: none;
-  }
-  #related{
-    background-color: #2A2F33;
-    color:white;
-  }
-  #related a{
-    color: white;
-    text-decoration: none;
-  }
-  #menu > ul > li a{
-    text-decoration: none;
-    color: black;
-    
-  }
-  #menu > ul{
-    list-style-type: none;
     padding: 0;
-    margin: 0;
-  }
-  #menu > ul > li{
-    text-align: center;
-    padding: 20px;
-  }
-  #menu > ul > li:nth-child(1){
-    border-top: #E1493E solid 5px;
-  }
-  #menu > ul > li:nth-child(2){
-    border-top: #8ABA56 solid 5px;
-  }
-  #menu > ul > li:nth-child(3){
-    border-top: #5B4282 solid 5px;
-  }
-  #menu > ul > li:nth-child(4){
-    border-top: #FF8932 solid 5px;
-  }
-  #menu > ul > li:nth-child(5){
-    border-top: #19B6E9 solid 5px;
-  }
-  #menu > ul > li:nth-child(6){
-    border-top: #E84C8B solid 5px;
-  }
-  #news > article> header{
-    position: absolute;
-    width: 200px;
-    margin: 25px 30px;
-  }
-  #news > article img{
-    width: 960px;
-  }
-  #news > article a{
-    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a:link {
     text-decoration: none;
-    text-shadow: 4px 4px 3px black;
-  }
+    color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+body > header {
+    padding: 1em;
+    background-color: #046DD5; 
+    color: #FFF;
+}
+
+body > header h2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#signup a {
+    font-size: .8em ;
+}
+
+#signup a:first-child {
+    border-right: 1px solid white;
+    padding-right: .5rem;
+}
+
+#signup a:last-child {
+	padding-left: .5rem;
+}
+
+#hamburger {
+	display: none;
+}
+
+#menu ul li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	background-color: white;
+
+	padding: .5em .1em; 
+
+	transition: .5s ease all;
+}
+#menu > ul > li:nth-child(1){
+    border-top: #E1493E solid 5px;
+}
+#menu > ul > li:nth-child(2){
+    border-top: #8ABA56 solid 5px;
+}
+#menu > ul > li:nth-child(3){
+    border-top: #5B4282 solid 5px;
+}
+#menu > ul > li:nth-child(4){
+    border-top: #FF8932 solid 5px;
+}
+#menu > ul > li:nth-child(5){
+    border-top: #19B6E9 solid 5px;
+}
+#menu > ul > li:nth-child(6){
+    border-top: #E84C8B solid 5px;
+}
+
+#menu ul li:nth-child(6) {
+	border-top: 5px solid #E84C8B;
+}
+
+#related {
+	background-color: #2A2F33;
+	color: white;
+	
+	padding: 2rem 1rem;
+}
+
+#related article h1 {
+	margin-bottom: .4rem;
+}
+
+#related article p {
+	margin-bottom: .8rem;
+	font-family: 'Lora', serif;
+	line-height: 1.6;
+}
+
+#news {
+	margin-top: 1em;
+}
+
+#news article  {
+	position: relative;
+	
+	margin-bottom: 1em;
+	
+	background-color: white;
+}
+
+#news article header {
+	position: absolute;
+	
+	top: 1.5rem;
+	left: 1.5rem;
+	
+	color: white;
+	width: 200px;
+	
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, .85);
+}
+
+#news article img {
+	width: 100%;
+}
+
+#news article p {
+	padding: 0 1.5rem;
+	margin-bottom: 1.5rem;
+	font-family: 'Lora', serif;
+	font-size: 1rem;
+}
+
+#news > article > p:last-child {
+	margin-bottom: 0;
+}
+
+#news footer {
+	color: white;
+	background: #F4655F;
+	
+	padding: 1em 1em;
+	
+	font-family: monospace;
+	font-weight: light;
+}
+
+#news footer .tags a,
+#news article footer .comments {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+#news article footer .comments::after{
+	content: ' comentários';
+}
+
+body > footer {
+	background-color: #2A2F33;
+	padding: 1em 1em .5em 1em;
+	
+	font-family: 'Verdana', serif;
+	color: white;
+}
+
 
