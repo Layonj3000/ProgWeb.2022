@@ -1,0 +1,91 @@
+• Como usar seletores CSS para selecionar partes específicas de um arquivo HTML para
+estilização?
+        • Como escrever um estilo para um ID?
+        Use o atributo id em um elemento para atribuir um ID a esse elemento. O nome do ID é de sua escolha e ele deve ser único no documento. Use o atributo class em um elemento para atribuir o elemento a uma determinada classe. O nome da classe é de sua escolha.
+        •	Como escrever um estilo para uma classe?
+        Classes são seletores CSS. Utilizaremos seletores CSS para estilizar elementos no HTML, usando o atributo "class", por exemplo: <div class="calvo"></div> em referência à uma classe CSS calvo.
+        • Como escrever um estilo para uma tag dentro de uma classe? Exemplo:
+        Podemos selecionar com ainda mais especificidade, escrevendo mais elementos, como: div p strong a. Neste exemplo, selecionamos links que estão dentro de tags strong que estão dentro de parágrafos que estão dentro de tags div. Seletor de classe: seleciona elementos com uma classe específica aplicada.
+        •Como escrever um estilo para uma tag?
+        p {color: red; width: 500px; border: 1px solid black; }
+
+• Como aplicar estilo básico a elementos HTML?
+Exemplo:
+ p {
+ color: red; 
+ width: 500px; 
+ border: 1px solid black;
+ }
+• Como importar fontes para que possamos usar mais do que as fontes seguras para a web?
+import url('link da fonte');            Tem a função de importar a fonte.
+body {
+    font-family: 'fonte', sans-serif;     Aplicando a fonte, lembre de colocar a fonte importada em aspas.
+}
+• Como usar pseudo-classes para selecionar elementos com base em um estado de elemento?
+Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. Por exemplo, :hover pode ser usado para alterar a cor de um botão quando o usuário passar o cursor sobre ele.
+Exemplo:
+button:hover {
+  color: blue;
+}
+• Como ocultar elementos usando CSS?
+Normalmente para ocultar um elemento declaramos o valor 'none' para a propriedade 'display'.
+• Como usar grades CSS para posicionar elementos em uma página da web?
+Em CSS Grid, colunas e linhas, em sua forma mais básica, são referidas por números. Por exemplo, esse CSS configura uma grade com 2 colunas e coloca o conteúdo principal da página na 2ª coluna:
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+ 
+.content {
+  grid-column: 2;
+}
+• Como usar flexboxes para posicionar elementos em um contêiner?
+O Flexbox (Flexible Box) nos permite organizar, alinhar e distribuir itens dentro de um container. Com ele fica mais simples definir o tamanho e o alinhamento vertical e horizontal de itens.
+Exemplo:
+.container{
+   display: flex;
+   flex-wrap: nowrap;  
+}
+.item{
+   width: 40%;  
+}
+• Como usar media query para especificar regras CSS para larguras de tela específicas?
+
+    @media screen and (max-width: larguraAqui) {
+
+    }
+
+    ou 
+
+    @media screen and (min-width: larguraAqui) {
+
+    }
+
+• Como usar uma caixa de seleção oculta para salvar o estado (checkbox) em CSS?
+
+    Adicionando um display 'none' em nosso elemento input e utilizarmos um <label> que faça referência para o checkbox oculto.
+
+• Como adicionar conteúdo a elementos usando o pseudo elemento ::after?
+
+    .elemento::after {
+        content: 'conteúdo';
+    }
+
+• Como fazer transições para criar animações suaves em CSS?
+
+    .transicao {
+        transiton: 1s all ease-in-out;
+    }
+
+    onde:
+        1s -> refere ao tempo de duração.
+        all -> Aplica para todos os tipos de mudança.
+        ease-in-out -> É padrão de velocidade da transição.
+
+• Como usar seletores genéricos para não repetir código? 
+
+    p {
+
+    }
+
+    Neste caso, o estilo seria aplicado para todos <p> no documento, sendo assim um seletor genérico.
